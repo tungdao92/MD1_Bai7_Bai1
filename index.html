@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đo cân nặng</title>
+</head>
+<body>
+<script>
+    let socan=prompt('Nhập Số Cân','')
+    let chieucao=prompt('Nhập Chiều Cao','')
+    let bmi= socan/(chieucao*chieucao)
+    if (bmi < 18){
+        alert('Bạn quá gầy, thiếu cân')
+    }else if (bmi<25){
+        alert('Bình Thường')
+    }else if (bmi<30){
+        alert('Thừa Cân')
+    }else alert('Bạn quá bếu')
+</script>
+
+</body>
+</html>
