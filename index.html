@@ -6,8 +6,8 @@
 </head>
 <body>
 <script>
-    let socan=prompt('Nhập Số Cân','')
-    let chieucao=prompt('Nhập Chiều Cao','')
+    let socan=+prompt('Nhập Số Cân','')
+    let chieucao=+prompt('Nhập Chiều Cao','')
     let bmi= socan/(chieucao*chieucao)
     if (bmi < 18){
         alert('Bạn quá gầy, thiếu cân')
